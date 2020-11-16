@@ -1,0 +1,60 @@
+
+
+APIs
+
+1. /getFeelings
+    method - GET
+    params - offset
+    return - return array of feelings. offset is for pagination.
+    FEELINGS_STRUCURE
+    {
+        "id": "1",
+        "imagePath": 'http://',
+        "title": "happy"
+    }
+
+2. /getFilteredFeelings
+    method - GET
+    params - searchText
+    return - return filtered array of feelings
+    FEELINGS_STRUCURE
+    {
+        "id": "1",
+        "imagePath": 'http://',
+        "title": "happy"
+    }
+
+3. /getActivities
+    method - GET
+    params - offset
+    return - return array of activities. offset is for pagination.
+    ACTIVITIES_STRUCURE
+    {
+        "id": "3",
+        "imagePath": 'http://',
+        "title": "Looking for"
+    }
+
+4. /getFilteredActivities
+    method - GET
+    params - searchText
+    return - return filtered array of activities
+    ACTVITIES_STRUCURE
+    {
+        "id": "3",
+        "imagePath": 'http://',
+        "title": "Looking for"
+    }
+
+5.  /getActivityChildren
+    method - GET
+    params - parentId, searchText, offset 
+    action - return array of child activities under the parentId(eg: parentId of "Looking for" is 3 above). if searchText is null return childrens by offset number else filter the children array by searchText and return by offset.
+    ACTVITIES_STRUCURE
+    {
+        "id": "3",
+        "imagePath": 'http://',
+        "title": "something"
+    }
+  
+
