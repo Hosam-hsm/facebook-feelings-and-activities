@@ -9,7 +9,7 @@ Facebook feelings and activities module built with React Native
 <b>Screenshots</b>
 <br><br>
 ![Feelings screen](assets/Feelings.png)
-![Search screen](assets/Seacrh.png)
+![Search screen](assets/Search.png)
 ![Activity screen](assets/Activity.png)
 ![Activities screen](assets/Activities.png)
 ![Selected feeling or activity screen](assets/Selected.png)
